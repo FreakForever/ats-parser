@@ -42,6 +42,8 @@ A Streamlit-based web application that compares a job description with a resume 
    cd resume-matching-tool
 
 ---
+Create a venv : ```source venv/bin/activate```
+spacy : ```python -m spacy download en_core_web_sm```
 Install dependencies: ```pip install -r requirements.txt```
 
 ---
