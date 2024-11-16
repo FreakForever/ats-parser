@@ -37,7 +37,7 @@ def calculate_similarity(resume_text, job_text):
     return similarity * 100  # Convert to percentage
 
 # Streamlit UI
-st.title("🎯 Resume Matching Tool")
+st.title("🎯 Resume Parser")
 
 st.sidebar.title("📄 Upload Your Resume")
 uploaded_file = st.sidebar.file_uploader("Choose a resume PDF file", type="pdf")
