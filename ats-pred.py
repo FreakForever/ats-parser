@@ -6,16 +6,13 @@ from PyPDF2 import PdfReader
 import streamlit as st
 import matplotlib.pyplot as plt
 
-# Load spaCy English model
 nlp = spacy.load('en_core_web_sm')
 
-# Function to extract name from text
 def extract_name(text):
     pattern = r"(\b[A-Z][a-z]+\b)\s(\b[A-Z][a-z]+\b)"
     match = re.search(pattern, text)
     return match.group() if match else "Name not found"
 
-# Text preprocessing function
 def text_preprocess(text):
     doc = nlp(text)
     return " ".join([token.lemma_ for token in doc if not token.is_stop and not token.is_punct])
