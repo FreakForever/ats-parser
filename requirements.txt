@@ -1,6 +1,6 @@
 streamlit
 scikit-learn
-spacy
+spacy==3.4.0
 en-core-web-sm
 PyPDF2
 matplotlib
