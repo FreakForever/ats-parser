@@ -5,8 +5,9 @@ import spacy
 from PyPDF2 import PdfReader
 import streamlit as st
 import matplotlib.pyplot as plt
+import en_core_web_sm
 
-nlp = spacy.load('en_core_web_sm')
+nlp = en_core_web_sm.load()
 
 def extract_name(text):
     pattern = r"(\b[A-Z][a-z]+\b)\s(\b[A-Z][a-z]+\b)"
