@@ -1,4 +1,4 @@
-# 🎯 ATS parser
+# 🎯 Resume parser
 
 A Streamlit-based web application that compares a job description with a resume to calculate a similarity percentage and provides insightful visual feedback.
 
