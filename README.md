@@ -14,7 +14,8 @@ A Streamlit-based web application that compares a job description with a resume 
   - Suggestions to enhance skills or projects.
 - Extract key sections from the resume (e.g., Skills, Experience, Education).
 - Highlight the candidate's name extracted from the resume.
-
+- Scope of improvement is by substituting TFIDF with sentence transformer like ```all-MiniLM-L6-v2``` inorder to provide dynamic embedding.
+  
 ---
 
 ## 🛠️ Technologies Used
